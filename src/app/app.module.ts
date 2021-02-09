@@ -6,8 +6,8 @@ import { AppComponent } from './app.component';
 import { ProfileComponent } from './profile/profile.component';
 
 const routes: Routes = [
-  {path: 'AngularProject/', component: ProfileComponent},
-  {path: '**', redirectTo: 'AngularProject/'}
+  {path: '', component: ProfileComponent},
+  {path: '**', redirectTo: ''}
 ];
 
 
